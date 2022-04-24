@@ -1,0 +1,27 @@
+<header>
+  <div class="container {% if page.cover %} absolute {% endif %}">
+    <div class="row">
+      <div class="col-md-12">
+        <nav class="navbar navbar-expand-md {% if page.cover %} navbar-dark {% else %} navbar-light {% endif %}">
+          <div class="container-fluid ps-0 pe-0">
+            <a class="navbar-brand" href="{{ site.baseurl }}">
+              <img src="{% if page.cover %} {{ site.logos.light }} {% else %} {{ site.logos.dark }} {% endif %}" alt="{{ site.title }}" height="20"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu-items" aria-controls="navbar-menu-items" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-menu-items">
+              <ul class="nav navbar-nav ms-auto mb-2 mb-lg-0">
+                {% for item in site.data.navigation %}
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{{ item.link }}">{{ item.name }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,23 @@
+- name: CMS
+  description: Modern and robust content management solutions tailored to your needs.
+  icon: boxes
+  tags:
+    - name: Sitecore
+    - name: Webflow
+- name: Web
+  description: Beautiful web pages and apps built with modern frameworks.
+  icon: globe2
+  tags:
+    - name: .NET
+    - name: React.js
+- name: Apps
+  description: Cross platform or native apps  mobile app development.
+  icon: phone
+  tags:
+    - name: React Native
+    - name: Swift
+- name: 3D
+  description: Stunning game, simulation, and virtual and augmeneted reality experiences.  
+  icon: controller
+  tags:
+    - name: Unity

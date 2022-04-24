@@ -1,0 +1,10 @@
+url: "https://www.atava.io"
+baseurl: ""
+title: "Atava Inc"
+logos:
+  dark: "assets/img/atava-black.svg"
+  light: "assets/img/atava-white.svg"
+favicons:
+  svg: "assets/img/atava-favicon.svg"
+  ico: "assets/img/atava-favicon.ico"
+  touch: "assets/img/atava-touch-icon.png"
