@@ -1,9 +1,14 @@
 .DS_Store
+
+# Jekyll
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 .bundle/
 vendor/
+
+# Node
+node_modules/
 
 # Build
 _site/

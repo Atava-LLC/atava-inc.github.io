@@ -1,0 +1,26 @@
+---
+---
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@tailwind base;
+@layer base {
+  h1 {
+    @apply text-5xl font-thin mb-8 tracking-widest uppercase
+  }
+  h2 {
+    @apply text-3xl font-extralight mb-2 tracking-wide uppercase
+  }
+  h3 {
+    @apply text-3xl font-extralight mb-2 tracking-wide
+  }
+  h5 {
+    @apply text-xl mb-2
+  }
+  section {
+    @apply mb-20
+  }
+}

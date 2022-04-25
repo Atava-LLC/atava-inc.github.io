@@ -3,13 +3,15 @@
   <head>
     {% include head.html %}
   </head>
-  <body>
-    {% include header.html %}
-
-    {{ content }}
-
-    {% include footer.html %}
-
-    {% include js.html %}
+  <body class="flex flex-col h-screen">
+    <header>
+      {% include header.html %}
+    </header>
+    <main class="grow">
+      {{ content }}
+    </main>
+    <footer>
+      {% include footer.html %}
+    </footer>
   </body>
 </html>
